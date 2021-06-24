@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Displace 2.0";
+  font-style: light;
+  font-weight: 600;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Displace 2.0"),
+       /* Если не получилось, загрузит woff2 */
+       url("/fonts/Displace 2.0.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("/fonts/Displace 2.0.woff") format("woff");
+}
+
+/* Теперь можно использовать шрифт */
+p{
+font-family: "Displace 2.0", sans-serif; 
+}
+@font-face {
+  font-family: "TT Wellingtons";
+  font-style: normal;
+  font-weight: 600;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("TT Wellingtons"),
+       /* Если не получилось, загрузит woff2 */
+       url("/fonts/TT Wellingtons.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("/fonts/TT Wellingtons.woff") format("woff");
+}
+
+/* Теперь можно использовать шрифт */
+body {
+  font-family: "TT Wellingtons", sans-serif;
+}
+element.style{
+    max-width: 300px;
+    color: #444444;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 600;
+    font-family: 'TT Wellingtons';
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 180px;
+}
+.t-name_xl {
+    font-size: 100px;
+    line-height: 1.35;
+}
+.t-name {
+    font-family: 'TT Wellingtons', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*, :after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.t585__header {
+    position: relative;
+    cursor: pointer;
+    padding: 27px 50px 27px 0;
+    border-top: 1px solid #eee;
+}
+#allrecords {
+    -webkit-font-smoothing: antialiased;
+    background-color: none;
+}
+*, :after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+*, :after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}

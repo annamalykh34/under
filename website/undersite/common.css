@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Displace 2.0";
+  font-style: light;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Displace 2.0"),
+       /* Если не получилось, загрузит woff2 */
+       url("/fonts/Displace 2.0.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("/fonts/Displace 2.0.woff") format("woff");
+}
+
+/* Теперь можно использовать шрифт */
+p{
+font-family: "Displace 2.0", sans-serif; 
+}
+@font-face {
+  font-family: "TT Wellingtons";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("TT Wellingtons"),
+       /* Если не получилось, загрузит woff2 */
+       url("/fonts/TT Wellingtons.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("/fonts/TT Wellingtons.woff") format("woff");
+}
+
+/* Теперь можно использовать шрифт */
+body {
+  font-family: "TT Wellingtons", sans-serif;
+}
+element.style {
+    color: #ffffff;
+    font-weight: 600;
+}
+.t228 a, #allrecords .t228 a {
+    text-decoration: none;
+    color: #000;
+}
+#allrecords a {
+    color: #ff8562;
+    text-decoration: none;
+}
+.t-records a {
+    color: #ff8562;
+    text-decoration: none;
+}
+a, b, blockquote, center, code, div, h1, h2, h3, h4, h5, h6, i, img, p, pre, span, table, td, th, tr, u, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*, :after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.t228__list_item {
+    clear: both;
+    font-family: 'TT Wellingtons',sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    color: #000;
+    white-space: nowrap;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+.t228__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0!important;
+    transition: opacity ease-in-out .2s;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+.t228__centerside {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 100%;
+}
+#allrecords {
+    -webkit-font-smoothing: antialiased;
+    background-color: none;
+}
+<style>
+:root {
+    --hotbot-chat-background: #fff;
+    --hotbot-chat-color: #111;
+    --hotbot-chat-input-background: #fff;
+    --hotbot-chat-input-color: #111;
+    --hotbot-chat-border-color: rgba(0,0,0,0.1);
+    --hotbot-chat-button-background: #fff;
+    --hotbot-chat-button-color: #000;
+    --hotbot-chat-header-background: #f5f5f5;
+    --hotbot-chat-header-color: #434c56;
+    --hotbot-chat-footer-background: #f5f5f5;
+    --hotbot-menu-button-background: #000;
+    --hotbot-menu-button-color: #fff;
+    --hotbot-chat-secondary-button-color: #678;
+    --hotbot-chat-secondary-button-background: transparent;
+    --hotbot-chat-secondary-button-color-hover: #435465;
+    --hotbot-chat-secondary-button-background-hover: #eef3f7;
+    --hotbot-chat-border-radius: 16px;
+    --hotbot-warning-background: #ffdf8d;
+    --hotbot-warning-color: #373330;
+    --hotbot-message-background: #f5f5f5;
+    --hotbot-message-color: #000;
+    --hotbot-user-message-background: #5875ff;
+    --hotbot-user-message-color: #fff;
+    --hotbot-message-border-radius: 4px;
+    --hotbot-message-small-border-radius: 4px;
+    --hotbot-chat-button-border-radius: 4px;
+    --hotbot-messenger-button-border-radius: 50%;
+    --hotbot-webchat-button-background: #32cd32;
+    --hotbot-button-background: linear-gradient(-45deg,#f44a4a,#ff5d5c);
+    --hotbot-shop-button-background: #fff;
+    --hotbot-button-glow-color: rgba(255,92,92,0.8);
+    --hotbot-button-badge-color: #6bd105;
+    --hotbot-button-icon-color: #e6e6e6;
+    --hotbot-promo-background: #fff;
+    --hotbot-promo-color: #000;
+    --hotbot-promo-button-background: #38f;
+    --hotbot-promo-button-color: #000;
+    --hotbot-promo-icon-background: #38f;
+    --hotbot-promo-icon-color: #000;
+}
+*, :after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+*, :after, :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+<img class="Component 20.svg" data-original="Component 20.svg" imgfield="Component 20.svg" src="Component 20.svg">
+button{
+
+}
+
+
+
